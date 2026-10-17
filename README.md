@@ -1,4 +1,6 @@
-# Aplikacja bankowa – Testowanie automatyczne (UG)
+# Aplikacja bankowa – {{STUDENT}} (album {{ALBUM}})
+
+Testowanie automatyczne, Uniwersytet Gdański.
 
 Projekt rozwijany krok po kroku na kolejnych zajęciach. Kod i testy piszesz samodzielnie.
 
