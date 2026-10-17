@@ -1,37 +1,37 @@
-# Aplikacja bankowa – {{STUDENT}} (album {{ALBUM}})
+# Bank application – {{STUDENT}} (album {{ALBUM}})
 
-Testowanie automatyczne, Uniwersytet Gdański.
+Automated Testing course, University of Gdańsk.
 
-Projekt rozwijany krok po kroku na kolejnych zajęciach. Kod i testy piszesz samodzielnie.
+A project developed step by step during the course. You write the code and the tests yourself.
 
-## Uruchomienie testów
+## Running the tests
 
 ```bash
 python3 -m pip install -r requirements.txt
 python3 -m pytest
 ```
 
-## Struktura
+## Structure
 
-| Ścieżka | Po co |
+| Path | Purpose |
 |---|---|
-| `src/` | kod aplikacji |
-| `tests/unit/` | testy jednostkowe |
-| `.github/workflows/tests.yml` | CI: testy uruchamiają się na każdym pushu i PR |
-| `pytest.ini` | konfiguracja pytest |
+| `src/` | application code |
+| `tests/unit/` | unit tests (pytest) |
+| `.github/workflows/tests.yml` | CI: tests run on every push and pull request |
+| `pytest.ini` | pytest configuration |
 
-## Pliki dla agentów AI
+## Files for AI agents
 
-| Plik | Dla kogo | Co robi |
+| File | For whom | What it does |
 |---|---|---|
-| `AGENTS.md` | większość narzędzi AI | zasady: agent robi tylko review, nie pisze kodu |
-| `CLAUDE.md` | Claude Code | wczytuje `AGENTS.md` |
-| `GEMINI.md` | Gemini CLI | wczytuje `AGENTS.md` |
+| `AGENTS.md` | most AI tools | rules: the agent only reviews, it does not write code |
+| `CLAUDE.md` | Claude Code | loads `AGENTS.md` |
+| `GEMINI.md` | Gemini CLI | loads `AGENTS.md` |
 
-Na zajęciach używamy AI wyłącznie do review. Kod i testy piszesz sam.
+In class, AI is used for code review only. You write the code and the tests yourself.
 
 ## Workflow
 
-1. Nowa gałąź od `main` dla każdego feature'a.
-2. Test → minimalna implementacja → refaktor → commit.
-3. Push i pull request, merge po zielonym CI.
+1. A new branch from `main` for every feature.
+2. Test → minimal implementation → refactor → commit.
+3. Push and open a pull request; merge once CI is green.

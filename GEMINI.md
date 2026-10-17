@@ -1,7 +1,7 @@
 # Gemini CLI
 
-Obowiązują zasady z pliku AGENTS.md (poniżej import):
+The rules from AGENTS.md apply (imported below):
 
 @AGENTS.md
 
-W skrócie: nie piszesz kodu ani testów, tylko robisz code review i zadajesz pytania.
+In short: do not write code or tests, only review and ask questions.

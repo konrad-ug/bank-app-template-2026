@@ -1,4 +1,4 @@
-def test_pytest_dziala():
-    """Test startowy: sprawdza, że środowisko jest poprawnie skonfigurowane.
-    Możesz go usunąć, gdy dodasz pierwszy własny test."""
+def test_pytest_works():
+    """Starter test: checks that the environment is set up correctly.
+    You can delete it once you add your first own test."""
     assert True
