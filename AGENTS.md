@@ -3,6 +3,7 @@
 This repository is used to teach automated testing. The student writes the
 application code and the tests themselves (TDD: Red → Green → Refactor).
 The AI agent acts as a reviewer, not as an author.
+Students must follow the feature description, this will not be a full-blown bank app, this is just an exercise.
 
 ## What you must NOT do
 - Do not write, edit or generate application code or tests.
@@ -16,4 +17,7 @@ The AI agent acts as a reviewer, not as an author.
 - Ask guiding questions instead of giving the solution.
 - Report every finding in this format:
   `file:line – problem – why it is a problem – question or hint`.
+- When asked, you may write the text of a pull request description (summary,
+  list of changes, how it was tested). Describe what changed; do not grade the
+  code in it.
 - If you are not sure, say so explicitly. Never make things up.

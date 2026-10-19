@@ -7,16 +7,20 @@ A project developed step by step during the course. You write the code and the t
 ## Running the tests
 
 ```bash
-python3 -m pip install -r requirements.txt
-python3 -m pytest
+python3 -m venv .venv             # once per repository
+source .venv/bin/activate         # Windows: .venv\Scripts\activate
+python -m pip install -r requirements.txt
+python -m pytest
 ```
+
+Why a virtual environment: newer systems (e.g. Homebrew on macOS) refuse `pip install` into the system Python (`externally-managed-environment`). The venv keeps this project's libraries separate. Activate it in every new terminal.
 
 ## Structure
 
 | Path | Purpose |
 |---|---|
-| `src/` | application code |
-| `tests/unit/` | unit tests (pytest) |
+| `src/` | application code (`src/account.py` is an empty skeleton you fill in) |
+| `tests/unit/` | unit tests (pytest); `test_account.py` has the first test, which fails until you implement it |
 | `.github/workflows/tests.yml` | CI: tests run on every push and pull request |
 | `pytest.ini` | pytest configuration |
 
